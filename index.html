@@ -1,15 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>My Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<bod>
-    <p>Hello World</p>
-    <p>Hello Professor</p>
-    <p>Welcome to my web page</p>
 
-</bod>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="sidebar">
+            <img src="/john_doe.png" John Doe" class="profile-photo">
+
+            <div class="sidebar-content">
+                <!-- About Me Section -->
+                <div class="section">
+                    <div class="section-title">
+                        <span class="section-icon">👤</span>
+                        <span>About Me</span>
+                    </div>
+                    <p class="about-text">
+                        Experienced professional with a proven track record in project management and team leadership.
+                        Passionate about innovation and continuous improvement. Dedicated to delivering high-quality
+                        results and building strong relationships with stakeholders. Always eager to learn and adapt
+                        to new challenges.
+                    </p>
+                </div>
+
+                <!-- Languages Section -->
+                <div class="section">
+                    <div class="section-title">
+                        <span class="section-icon">🌐</span>
+                        <span>Languages Known</span>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-name">English</div>
+                        <div class="proficiency-dots">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-name">Spanish</div>
+                        <div class="proficiency-dots">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-name">French</div>
+                        <div class="proficiency-dots">
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot filled"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <h1 class="name">John Doe</h1>
+                <p class="designation">Senior Project Manager</p>
+            </div>
+
+            <!-- Contact Bar -->
+            <div class="contact-bar">
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <span>+1-555-123-4567</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>123 Main Street, New York, NY</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <span>john.doe@email.com</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">💼</span>
+                    <span>linkedin.com/in/johndoe</span>
+                </div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="content-area">
+                <!-- Work Experience -->
+                <div class="content-section">
+                    <h2 class="content-section-title">
+                        <span>💼</span>
+                        <span>Work Experience</span>
+                    </h2>
+
+                    <div class="experience-item">
+                        <div class="year">2022 - 2024</div>
+                        <div class="company-name">Tech Innovations Inc. (Senior Project Manager)</div>
+                        <p class="description">
+                            Led cross-functional teams in delivering enterprise software solutions.
+                            Managed project budgets exceeding $2M and coordinated with international stakeholders.
+                        </p>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="year">2024 - 2025</div>
+                        <div class="company-name">Global Solutions Corp. (Project Manager)</div>
+                        <p class="description">
+                            Oversaw multiple concurrent projects with teams of 15+ members.
+                            Implemented agile methodologies resulting in 30% improvement in delivery times.
+                        </p>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="year">2025 - 2026</div>
+                        <div class="company-name">Digital Ventures LLC (Associate Project Manager)</div>
+                        <p class="description">
+                            Coordinated project activities, managed stakeholder communications, and ensured
+                            timely delivery of project milestones. Contributed to process improvement initiatives.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="content-section">
+                    <h2 class="content-section-title">
+                        <span>🎓</span>
+                        <span>Education</span>
+                    </h2>
+
+                    <div class="education-item">
+                        <div class="year">2016 - 2018</div>
+                        <div class="company-name">Stanford University (Master of Business Administration)</div>
+                        <p class="description">
+                            Specialized in Project Management and Organizational Leadership.
+                            Graduated with honors. Thesis on digital transformation strategies.
+                        </p>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="year">2018 - 2021</div>
+                        <div class="company-name">University of California (Bachelor of Science in Computer Science)
+                        </div>
+                        <p class="description">
+                            Core courses in software engineering, data structures, and algorithms.
+                            Active member of the technology innovation club.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="content-section">
+                    <h2 class="content-section-title">
+                        <span>⚙️</span>
+                        <span>Skills</span>
+                    </h2>
+
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">Project Management</span>
+                            <div class="proficiency-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Agile/Scrum</span>
+                            <div class="proficiency-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Team Leadership</span>
+                            <div class="proficiency-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Strategic Planning</span>
+                            <div class="proficiency-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hobbies -->
+                <div class="content-section">
+                    <h2 class="content-section-title">
+                        <span>🎯</span>
+                        <span>Hobbies</span>
+                    </h2>
+
+                    <div class="hobbies-grid">
+                        <div class="hobby-item">
+                            <span class="hobby-icon">🎥</span>
+                            <span class="hobby-name">Photography</span>
+                        </div>
+                        <div class="hobby-item">
+                            <span class="hobby-icon">🎵</span>
+                            <span class="hobby-name">Music</span>
+                        </div>
+                        <div class="hobby-item">
+                            <span class="hobby-icon">✈️</span>
+                            <span class="hobby-name">Travelling</span>
+                        </div>
+                        <div class="hobby-item">
+                            <span class="hobby-icon">🚴</span>
+                            <span class="hobby-name">Cycling</span>
+                        </div>
+                        <div class="hobby-item">
+                            <span class="hobby-icon">📚</span>
+                            <span class="hobby-name">Reading</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievements -->
+                <div class="content-section">
+                    <h2 class="content-section-title">
+                        <span>🏆</span>
+                        <span>Achievement</span>
+                    </h2>
+
+                    <ul class="achievements-list">
+                        <li>Successfully delivered 25+ projects on time and within budget, maintaining 98% client
+                            satisfaction rate.</li>
+                        <li>Awarded "Project Manager of the Year" for outstanding leadership and innovation in 2024.
+                        </li>
+                        <li>Led digital transformation initiative that increased operational efficiency by 40% across
+                            the organization.</li>
+                        <li>Certified Project Management Professional (PMP) and Certified Scrum Master (CSM) with
+                            continuous professional development.</li>
+                        <li>Published thought leadership articles on project management best practices in
+                            industry-leading publications.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 
 </html>
-
